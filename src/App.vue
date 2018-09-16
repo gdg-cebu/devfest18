@@ -3,6 +3,12 @@
 </template>
 
 <style>
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
