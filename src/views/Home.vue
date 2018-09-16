@@ -1,11 +1,17 @@
 <template>
   <div class="home">
-    <h1>DevFest18</h1>
+    <TheNavbar />
   </div>
 </template>
 
 <script>
+import TheNavbar from '@/components/TheNavbar.vue';
+
 export default {
   name: 'Home',
+
+  components: {
+    TheNavbar,
+  },
 };
 </script>
