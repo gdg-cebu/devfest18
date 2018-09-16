@@ -26,7 +26,9 @@ export default {
 <style module="$shared" src="@/stylesheets/shared.css"></style>
 <style module>
 .navbar {
-  padding: 8rem 0;
+  display: flex;
+  align-items: center;
+  height: 18rem;
 }
 
 .wrapper {
