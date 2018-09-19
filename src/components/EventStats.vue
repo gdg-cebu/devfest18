@@ -56,8 +56,8 @@ export default {
 
 .value {
   display: block;
-  font-size: 2.4rem;
-  font-weight: 600;
+  font-size: 2.8rem;
+  font-weight: 700;
 }
 
 .label {

@@ -21,6 +21,8 @@ export default {
 <style module>
 .banner {
   height: 70rem;
+  background: url("@/assets/banner-image.jpg") center center;
+  background-size: cover;
 }
 
 .wrapper {
