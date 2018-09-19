@@ -56,9 +56,9 @@ export default {
   color: transparent;
   background-image: linear-gradient(
     to right,
-    #d32c92,
+    #41c1c9,
     #6962ad,
-    #41c1c9
+    #d32c92
   );
   background-clip: text;
   -webkit-background-clip: text;

@@ -5,6 +5,7 @@
     <StatsBlock />
     <GalleryBlock />
     <OrganizerBlock />
+    <TicketsBlock />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import LandingBanner from '@/components/LandingBanner.vue';
 import StatsBlock from '@/components/StatsBlock.vue';
 import GalleryBlock from '@/components/GalleryBlock.vue';
 import OrganizerBlock from '@/components/OrganizerBlock.vue';
+import TicketsBlock from '@/components/TicketsBlock.vue';
 
 export default {
   name: 'Home',
@@ -24,6 +26,7 @@ export default {
     StatsBlock,
     GalleryBlock,
     OrganizerBlock,
+    TicketsBlock,
   },
 };
 </script>
