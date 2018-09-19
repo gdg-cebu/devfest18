@@ -77,11 +77,11 @@ export default {
   top: 0;
   left: calc(50% - 2.5rem);
   background-image: linear-gradient(
-    to left,
+    to right,
     transparent,
-    #41c1c9 15%,
+    #d32c92 15%,
     #6962ad,
-    #d32c92 85%,
+    #41c1c9 85%,
     transparent
   );
 }

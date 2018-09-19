@@ -34,6 +34,31 @@ export default {
 <style module>
 .gallery {
   display: flex;
+  padding: 6px 0;
+  position: relative;
+}
+
+.gallery::before,
+.gallery::after {
+  content: "";
+  height: 3px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(
+    to right,
+    #d32c92,
+    #6962ad,
+    #41c1c9
+  );
+}
+
+.gallery::before {
+  top: 0;
+}
+
+.gallery::after {
+  bottom: 0;
 }
 
 .column {
