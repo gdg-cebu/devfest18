@@ -2,16 +2,16 @@
   <div>
     <TheNavbar />
     <LandingBanner :class="$style.banner" />
-    <EventStats />
-    <PhotoGallery />
+    <StatsBlock />
+    <GalleryBlock />
   </div>
 </template>
 
 <script>
 import TheNavbar from '@/components/TheNavbar.vue';
 import LandingBanner from '@/components/LandingBanner.vue';
-import EventStats from '@/components/EventStats.vue';
-import PhotoGallery from '@/components/PhotoGallery.vue';
+import StatsBlock from '@/components/StatsBlock.vue';
+import GalleryBlock from '@/components/GalleryBlock.vue';
 
 export default {
   name: 'Home',
@@ -19,8 +19,8 @@ export default {
   components: {
     TheNavbar,
     LandingBanner,
-    EventStats,
-    PhotoGallery,
+    StatsBlock,
+    GalleryBlock,
   },
 };
 </script>

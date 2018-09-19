@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: 'PhotoGallery',
+  name: 'GalleryBlock',
 };
 </script>
 

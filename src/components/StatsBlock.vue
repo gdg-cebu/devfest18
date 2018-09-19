@@ -33,7 +33,7 @@
 
 <script>
 export default {
-  name: 'EventStats',
+  name: 'StatsBlock',
 };
 </script>
 
