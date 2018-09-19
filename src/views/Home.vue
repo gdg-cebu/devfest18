@@ -4,6 +4,7 @@
     <LandingBanner :class="$style.banner" />
     <StatsBlock />
     <GalleryBlock />
+    <OrganizerBlock />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import TheNavbar from '@/components/TheNavbar.vue';
 import LandingBanner from '@/components/LandingBanner.vue';
 import StatsBlock from '@/components/StatsBlock.vue';
 import GalleryBlock from '@/components/GalleryBlock.vue';
+import OrganizerBlock from '@/components/OrganizerBlock.vue';
 
 export default {
   name: 'Home',
@@ -21,6 +23,7 @@ export default {
     LandingBanner,
     StatsBlock,
     GalleryBlock,
+    OrganizerBlock,
   },
 };
 </script>
