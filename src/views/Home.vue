@@ -3,6 +3,7 @@
     <TheNavbar />
     <LandingBanner :class="$style.banner" />
     <EventStats />
+    <PhotoGallery />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import TheNavbar from '@/components/TheNavbar.vue';
 import LandingBanner from '@/components/LandingBanner.vue';
 import EventStats from '@/components/EventStats.vue';
+import PhotoGallery from '@/components/PhotoGallery.vue';
 
 export default {
   name: 'Home',
@@ -18,6 +20,7 @@ export default {
     TheNavbar,
     LandingBanner,
     EventStats,
+    PhotoGallery,
   },
 };
 </script>
