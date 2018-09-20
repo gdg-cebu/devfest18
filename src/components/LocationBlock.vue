@@ -3,8 +3,8 @@
     <div :class="$style.wrapper">
       <div :class="$style.location">
         <div :class="$style.locationContainer">
-          <h1 :class="$style.name">Galleria Thingy thingy</h1>
-          <p :class="$style.address">P. Remedio St., Banilad, Mandaue City</p>
+          <h1 :class="$style.name">Summit Galleria Cebu</h1>
+          <p :class="$style.address">B. Benedicto St., Cebu City, Cebu</p>
         </div>
       </div>
     </div>
@@ -20,7 +20,7 @@ export default {
 <style module>
 .locationBlock {
   height: 40rem;
-  background: url("@/assets/banner-image.jpg") center center no-repeat;
+  background: url("@/assets/location-map.png") center center no-repeat;
   background-size: cover;
 }
 
