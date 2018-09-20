@@ -8,7 +8,7 @@
       >
       <a
         :class="$style.buyTicket"
-        href="#"
+        href="http://www.ticketbase.com/events/devfest-x-bizfest-2018"
         target="_blank"
       >
         Buy Ticket
