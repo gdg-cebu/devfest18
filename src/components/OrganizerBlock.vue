@@ -48,6 +48,20 @@ export default {
   width: 45%;
 }
 
+@media (max-width: 500px) {
+  .wrapper {
+    flex-wrap: wrap;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .column:last-of-type {
+    margin-top: 3.2rem;
+  }
+}
+
 .heading {
   display: inline-block;
   font-size: 1.6rem;

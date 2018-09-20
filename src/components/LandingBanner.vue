@@ -47,4 +47,10 @@ export default {
   color: #41c1c9;
   background: none;
 }
+
+@media (max-width: 500px) {
+  .wrapper {
+    align-items: center;
+  }
+}
 </style>

@@ -15,12 +15,12 @@
         </p>
         <a :class="$style.seePhotos" href="#">See Photos</a>
       </div>
-      <img :class="$style.cell" src="@/assets/banner-image.jpg" alt="">
+      <img :class="$style.cellHalfWidth" src="@/assets/banner-image.jpg" alt="">
+      <img :class="$style.cellHalfWidth" src="@/assets/banner-image.jpg" alt="">
     </div>
     <div :class="[$style.column, $style.column3]">
       <img :class="$style.cellThriceTall" src="@/assets/banner-image.jpg" alt="">
-      <img :class="$style.cellHalfWidth" src="@/assets/banner-image.jpg" alt="">
-      <img :class="$style.cellHalfWidth" src="@/assets/banner-image.jpg" alt="">
+      <img :class="$style.cell" src="@/assets/banner-image.jpg" alt="">
     </div>
   </section>
 </template>
@@ -65,6 +65,19 @@ export default {
   flex: 1 0 0;
   display: flex;
   flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .column2 {
+    flex-grow: 2;
+  }
+}
+
+@media (max-width: 500px) {
+  .column1,
+  .column3 {
+    display: none;
+  }
 }
 
 .cell {

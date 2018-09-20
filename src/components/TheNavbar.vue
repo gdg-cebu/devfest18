@@ -58,4 +58,17 @@ export default {
   text-decoration: none;
   color: #41c1c9;
 }
+
+@media (max-width: 500px) {
+  .wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .links {
+    justify-content: center;
+    width: 100%;
+    margin-top: 2.4rem;
+  }
+}
 </style>
