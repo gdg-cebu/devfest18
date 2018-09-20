@@ -9,9 +9,9 @@
 
       <nav :class="$style.links">
         <router-link :to="{name: 'home'}">Home</router-link>
-        <router-link :to="{path: '/speakers'}">Speakers</router-link>
+        <!-- <router-link :to="{path: '/speakers'}">Speakers</router-link>
         <router-link :to="{path: '/schedule'}">schedule</router-link>
-        <router-link :to="{path: '/team'}">Team</router-link>
+        <router-link :to="{path: '/team'}">Team</router-link> -->
       </nav>
     </div>
   </header>
