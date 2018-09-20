@@ -118,15 +118,21 @@ export default {
 .cellText {
   margin: 0;
   font-weight: 600;
-  color: transparent;
-  background-image: linear-gradient(
-    to right,
-    #d32c92,
-    #6962ad,
-    #41c1c9
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
+  color: #d32c92;
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .cellText {
+    color: transparent;
+    background-image: linear-gradient(
+      to right,
+      #d32c92,
+      #6962ad,
+      #41c1c9
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 }
 
 .seePhotos {

@@ -67,15 +67,21 @@ export default {
   font-size: 1.6rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: transparent;
-  background-image: linear-gradient(
-    to right,
-    #41c1c9,
-    #6962ad,
-    #d32c92
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
+  color: #41c1c9;
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .heading {
+    color: transparent;
+    background-image: linear-gradient(
+      to right,
+      #41c1c9,
+      #6962ad,
+      #d32c92
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 }
 
 .text {

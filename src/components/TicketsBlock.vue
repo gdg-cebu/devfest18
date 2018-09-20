@@ -77,14 +77,20 @@ export default {
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  color: transparent;
-  background-image: linear-gradient(
-    to right,
-    #41c1c9,
-    #6962ad,
-    #d32c92
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
+  color: #41c1c9;
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .title {
+    color: transparent;
+    background-image: linear-gradient(
+      to right,
+      #41c1c9,
+      #6962ad,
+      #d32c92
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 }
 </style>
