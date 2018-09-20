@@ -7,6 +7,7 @@
     <OrganizerBlock />
     <TicketsBlock />
     <LocationBlock />
+    <SponsorsBlock />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import GalleryBlock from '@/components/GalleryBlock.vue';
 import OrganizerBlock from '@/components/OrganizerBlock.vue';
 import TicketsBlock from '@/components/TicketsBlock.vue';
 import LocationBlock from '@/components/LocationBlock.vue';
+import SponsorsBlock from '@/components/SponsorsBlock.vue';
 
 export default {
   name: 'Home',
@@ -30,6 +32,7 @@ export default {
     OrganizerBlock,
     TicketsBlock,
     LocationBlock,
+    SponsorsBlock,
   },
 };
 </script>
