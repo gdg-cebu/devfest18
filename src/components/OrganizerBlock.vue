@@ -20,7 +20,7 @@
       </div>
 
       <div :class="$style.column">
-        <img :class="$style.image" src="@/assets/banner-image.jpg" alt="">
+        <img :class="$style.image" src="@/assets/team.jpg" alt="">
       </div>
     </div>
   </section>
