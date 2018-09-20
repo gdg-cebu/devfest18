@@ -1,13 +1,13 @@
 <template>
   <section :class="$style.gallery">
     <div :class="[$style.column, $style.column1]">
-      <img :class="$style.cellHalfWidth" src="@/assets/banner-image.jpg" alt="">
-      <img :class="$style.cellHalfWidth" src="@/assets/banner-image.jpg" alt="">
-      <img :class="$style.cellTwiceTall" src="@/assets/banner-image.jpg" alt="">
-      <img :class="$style.cell" src="@/assets/banner-image.jpg" alt="">
+      <img :class="$style.cellHalfWidth" src="@/assets/gallery-01.jpg" alt="">
+      <img :class="$style.cellHalfWidth" src="@/assets/gallery-06.jpg" alt="">
+      <img :class="$style.cellTwiceTall" src="@/assets/gallery-03.jpg" alt="">
+      <img :class="$style.cell" src="@/assets/gallery-08.jpg" alt="">
     </div>
     <div :class="[$style.column, $style.column2]">
-      <img :class="$style.cellTwiceTall" src="@/assets/banner-image.jpg" alt="">
+      <img :class="$style.cellTwiceTall" src="@/assets/gallery-07.jpg" alt="">
       <div :class="$style.cellAction">
         <p :class="$style.cellText">
           Last year's festival built lots of excitement. Check out photos from
@@ -15,12 +15,12 @@
         </p>
         <a :class="$style.seePhotos" href="#">See Photos</a>
       </div>
-      <img :class="$style.cellHalfWidth" src="@/assets/banner-image.jpg" alt="">
-      <img :class="$style.cellHalfWidth" src="@/assets/banner-image.jpg" alt="">
+      <img :class="$style.cellHalfWidth" src="@/assets/gallery-05.jpg" alt="">
+      <img :class="$style.cellHalfWidth" src="@/assets/gallery-02.jpg" alt="">
     </div>
     <div :class="[$style.column, $style.column3]">
-      <img :class="$style.cellThriceTall" src="@/assets/banner-image.jpg" alt="">
-      <img :class="$style.cell" src="@/assets/banner-image.jpg" alt="">
+      <img :class="$style.cellThriceTall" src="@/assets/gallery-04.jpg" alt="">
+      <img :class="$style.cell" src="@/assets/gallery-09.jpg" alt="">
     </div>
   </section>
 </template>
