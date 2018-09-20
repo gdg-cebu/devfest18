@@ -5,7 +5,7 @@
     <StatsBlock />
     <GalleryBlock />
     <OrganizerBlock />
-    <TicketsBlock />
+    <!-- <TicketsBlock /> -->
     <LocationBlock />
     <SponsorsBlock />
   </div>
