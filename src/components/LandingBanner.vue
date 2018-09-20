@@ -6,7 +6,13 @@
         src="@/assets/banner-logo.png"
         alt="Banner Logo"
       >
-      <button :class="$style.buyTicket">Buy Ticket</button>
+      <a
+        :class="$style.buyTicket"
+        href="#"
+        target="_blank"
+      >
+        Buy Ticket
+      </a>
     </div>
   </section>
 </template>
@@ -44,6 +50,7 @@ export default {
   margin-top: 2rem;
   font-size: 1.6rem;
   text-transform: uppercase;
+  text-decoration: none;
   color: #41c1c9;
   background: none;
 }
