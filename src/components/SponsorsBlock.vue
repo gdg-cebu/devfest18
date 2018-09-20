@@ -31,30 +31,6 @@ export default {
         name: 'Google',
         url: 'https://google.com/',
         image: require('@/assets/google.svg'),
-      }, {
-        name: 'Google',
-        url: 'https://google.com/',
-        image: require('@/assets/google.svg'),
-      }, {
-        name: 'Google',
-        url: 'https://google.com/',
-        image: require('@/assets/google.svg'),
-      }, {
-        name: 'Google',
-        url: 'https://google.com/',
-        image: require('@/assets/google.svg'),
-      }, {
-        name: 'Google',
-        url: 'https://google.com/',
-        image: require('@/assets/google.svg'),
-      }, {
-        name: 'Google',
-        url: 'https://google.com/',
-        image: require('@/assets/google.svg'),
-      }, {
-        name: 'Google',
-        url: 'https://google.com/',
-        image: require('@/assets/google.svg'),
       }],
     };
   },
