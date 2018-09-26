@@ -8,7 +8,7 @@
       >
       <a
         :class="$style.buyTicket"
-        href="http://www.ticketbase.com/events/devfest-x-bizfest-2018"
+        href="https://devfestbizfestcebu.eventbrite.com/?aff=website"
         target="_blank"
       >
         Buy Ticket
